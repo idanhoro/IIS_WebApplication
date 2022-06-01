@@ -1,6 +1,5 @@
 # IIS_WebApplication
 
- ---
 
 Simple ASP.NET web application and deploy it on Microsoft machine.
 
@@ -8,20 +7,15 @@ Simple ASP.NET web application and deploy it on Microsoft machine.
 
 ## Description
 
----
-
 This guide shows how to deploy an ASP.NET web application on your Microsoft machine,
-
 using Internet Information Services (IIS) Manager.
 
 ## Requirements
 
----
 - One server, running Windows Server operating system.
 
 # Installation and Configuration
 
----
 #### Step 1 - Clone\Create project.
 ```git clone``` this repository or create your own application for your Microsoft machine.
 #### Step 2 - Create and configure IIS.
@@ -57,7 +51,6 @@ using Internet Information Services (IIS) Manager.
 
 # Dependencies 
 
----
  - Microsoft machine - This guide deployed with Windows Server 2019.
 
  - This project was written using Microsoft Visual Studio 2019 and C# ASP.NET 3.1 core,
