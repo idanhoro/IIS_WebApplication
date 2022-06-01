@@ -1,4 +1,4 @@
-# Create website on your Microsoft machine
+# IIS_WebApplication
 
  ---
 
@@ -14,12 +14,17 @@ This guide shows how to deploy an ASP.NET web application on your Microsoft mach
 
 using Internet Information Services (IIS) Manager.
 
+## Requirements
+
+---
+- One server, running Windows Server operating system.
+
 # Installation and Configuration
 
 ---
 #### Step 1 - Clone\Create project.
-```git clone``` this repository or create your own application to your Microsoft machine.
-#### Step 2 - Create and config IIS.
+```git clone``` this repository or create your own application for your Microsoft machine.
+#### Step 2 - Create and configure IIS.
  - At the server manager click on : ```Add feature and roles```
 <img src="./images/add_feature.png" width="500"/>
 
@@ -32,6 +37,8 @@ using Internet Information Services (IIS) Manager.
 - Open IIS manager
 - Open your local connection.
 - Right click on ``` Sites```
+- Select add website
+
 <img src="./images/add_website.png" width="170"/>
 
 - Fill the website form.
@@ -45,7 +52,7 @@ using Internet Information Services (IIS) Manager.
 #### Step 4 - Browse to the application
 
 - From your local Microsoft machine Browse to ```http://localhost:5100/```
-- 
+
 <img src="./images/running_app.png" width="500"/>
 
 # Dependencies 
@@ -57,4 +64,5 @@ using Internet Information Services (IIS) Manager.
 other versions mat not work.
 
 **Note** .NET versions must be the same on the server and at your project. 
+
 
