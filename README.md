@@ -19,7 +19,7 @@ using Internet Information Services (IIS) Manager.
 #### Step 1 - Clone\Create project.
 ```git clone``` this repository or create your own application for your Microsoft machine.
 #### Step 2 - Create and configure IIS.
- - At the server manager click on : ```Add feature and roles```
+ - At the server manager click on : ```Add roles and feature```
 <img src="./images/add_feature.png" width="500"/>
 
  - Choose  ``` Web Server (IIS)``` at the ```Server Roles``` section.
